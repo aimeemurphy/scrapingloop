@@ -16,6 +16,7 @@ class School2Item(scrapy.Item):
 	sometext = scrapy.Field()
 	pagetitle = scrapy.Field()
 	url = scrapy.Field()
+	soup = scrapy.Field()
     # define the fields for your item here like:
     # name = scrapy.Field()
 	pass

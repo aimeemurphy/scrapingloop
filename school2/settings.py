@@ -44,10 +44,10 @@ NEWSPIDER_MODULE = 'school2.spiders'
 
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
-# SPIDER_MIDDLEWARES = {
-#    'school2.middlewares.MyCustomSpiderMiddleware': 1, 
+#SPIDER_MIDDLEWARES = {
+#	'school2.middlewares.MyCustomSpiderMiddleware': 1, 
 
-#    'scrapy.spidermiddlewares.depth.DepthMiddleware': 2,
+#	'scrapy.spidermiddlewares.depth.DepthMiddleware': 5,
 #}
 
 # Enable or disable downloader middlewares
